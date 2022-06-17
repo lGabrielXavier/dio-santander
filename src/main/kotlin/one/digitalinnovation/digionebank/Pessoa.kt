@@ -9,6 +9,7 @@ class Pessoa {
     constructor()
 
     fun pessoaInfo() ="$nome e $cpf"
+    //
 }
 fun main() {
 
