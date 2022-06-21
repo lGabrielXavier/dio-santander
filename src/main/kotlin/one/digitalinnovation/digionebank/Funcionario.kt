@@ -9,12 +9,11 @@ abstract class Funcionario (
     ): Pessoa(nome,cpf){
    protected abstract fun calculoAuxlio():Double
 
-    override fun toString(): String = """
+    override fun toString(): String =  """
         Nome : $nome
         cpf : $cpf
         salario : $salario
         Auxilio : ${calculoAuxlio()}
     """.trimIndent()
-
 
     }
