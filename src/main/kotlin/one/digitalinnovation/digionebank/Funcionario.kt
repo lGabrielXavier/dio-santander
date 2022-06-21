@@ -8,4 +8,5 @@ abstract class Funcionario (
     val salario : BigDecimal
     ): Pessoa(nome,cpf){
     abstract fun calculoAuxlio()
+
     }
